@@ -2,6 +2,8 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url('/midia/Home2.png');
+    background-origin: border-box;
 }
 
 a, .btn-link {
