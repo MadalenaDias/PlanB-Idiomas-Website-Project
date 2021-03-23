@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanB.App", "PlanB.App\PlanB.App.csproj", "{10EC1D63-B38D-4E9A-A041-C6B332F7302F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanB.App", "PlanB.App\PlanB.App.csproj", "{10EC1D63-B38D-4E9A-A041-C6B332F7302F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BF3DA40F-E0E7-4E8A-AA39-5E486807EE4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanB.App.Test", "Tests\PlanB.App.Test\PlanB.App.Test.csproj", "{8AA607DD-C990-4648-8E7D-32EA1758B3E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanB.App.Test", "Tests\PlanB.App.Test\PlanB.App.Test.csproj", "{8AA607DD-C990-4648-8E7D-32EA1758B3E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanB.Tests.Functional", "Tests\PlanB.Tests.Functional\PlanB.Tests.Functional.csproj", "{D87BD10D-8AC1-475B-94B0-3DAA6C63253D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanB.Tests.Functional", "Tests\PlanB.Tests.Functional\PlanB.Tests.Functional.csproj", "{D87BD10D-8AC1-475B-94B0-3DAA6C63253D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{1F8022BC-601A-4FFA-9BB2-5D1DCDEBF3B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{BD6FA76B-092E-4F2A-8712-1806A0246F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanB.Solution.Module.ActivityLog", "BackEnd\Modules\PlanB.Solution.Module.ActivityLog\PlanB.Solution.Module.ActivityLog.csproj", "{784AB5F2-13F7-4E88-A056-C66987497C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,10 @@ Global
 		{D87BD10D-8AC1-475B-94B0-3DAA6C63253D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D87BD10D-8AC1-475B-94B0-3DAA6C63253D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D87BD10D-8AC1-475B-94B0-3DAA6C63253D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784AB5F2-13F7-4E88-A056-C66987497C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784AB5F2-13F7-4E88-A056-C66987497C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784AB5F2-13F7-4E88-A056-C66987497C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784AB5F2-13F7-4E88-A056-C66987497C73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8AA607DD-C990-4648-8E7D-32EA1758B3E1} = {BF3DA40F-E0E7-4E8A-AA39-5E486807EE4F}
 		{D87BD10D-8AC1-475B-94B0-3DAA6C63253D} = {BF3DA40F-E0E7-4E8A-AA39-5E486807EE4F}
+		{BD6FA76B-092E-4F2A-8712-1806A0246F4B} = {1F8022BC-601A-4FFA-9BB2-5D1DCDEBF3B4}
+		{784AB5F2-13F7-4E88-A056-C66987497C73} = {BD6FA76B-092E-4F2A-8712-1806A0246F4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C928F22E-C24C-400A-BB77-336D1501743D}
